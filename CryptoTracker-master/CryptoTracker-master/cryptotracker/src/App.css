@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #ff9332;
+}
+.coinName {
+  text-transform: capitalize;
+}
+
+tr {
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  border-bottom: #ffffff80 solid;
+}
+.coinStats {
+  display: flex;
+  flex-direction: column;
+}
+.coinStatsTitle {
+  color: #ffffff80;
+}
+.coinStatsValue {
+  display: flex;
+  flex-direction: row;
+}
+
+/* COINSCREEN */
+.socialButton:hover {
+  color: black;
+  background-color: #ff9332;
+}
+
+.coinInfo a {
+  color: #ff9332;
+  text-decoration: underline;
+}
